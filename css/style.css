@@ -1,0 +1,92 @@
+.navbar-form {
+	margin-top: 0px;
+}
+
+.btn-success1 {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	width: 50px;
+}
+
+.box
+{
+	background-color:gray;
+	height:300px;
+	width:209px;
+	position:relative;
+}
+p
+{
+	margin: 0px 6px 10px;
+}
+.top .screen {
+	height: 55px;
+	width: 208px;
+	
+	float: right;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	/* Typography */
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+#screen{
+    height: 55px;
+	width: 208px;
+	
+	float: right;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	/* Typography */
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+.keys
+{
+	margin-top: 50px;
+}
+.box1
+{
+    background-color: gray;
+    height: 150px;
+    width: 396px;
+    position: relative;
+}
+.btn-lg1 {
+	padding: 10px 45px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+#time
+{
+	color: white;
+	font-size: 25px;
+}
+
+#lap
+{
+	background-color: gray;
+    height: 150px;
+    width: 250px;
+    margin-top: 100px;
+}

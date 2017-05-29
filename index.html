@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <div class="navbar-form" style="background-color:#f4f7f8; height:65px;">
+        <ul style="padding-top:20px;">
+            <a href="reken.html" class="btn-info btn-lg">Rekenmachine</a>
+            <a href="stopwatch.html" class="btn-info btn-lg">Stopwatch</a>
+            <a href="zoek.html" class="btn-info btn-lg">Zoeken</a>
+            <a href="quiz.php" class="btn-info btn-lg">Quiz</a>
+        </ul>
+    </div>
+<body onload="show();">
+
+    <div id="stopwatch" >
+        <div class="row">
+            <div class="col-md-8 col-md-offset-4"
+                <div class="col-md-10">
+                    <div class="box1">
+                        <div><b><h3 style="color:white; ">Tijd:</h3></b>
+                            <span id="time"></span><br/>
+                            <span id="lap"></span>
+                            </div>
+                        </div>
+                        <input id="start" type="button" value="start" class="btn btn-success btn-lg1" onclick="start();" style="margin-top:23px; margin-left: -50px;">
+                        <input type="button" value="pauze" class="btn btn-warning btn-lg1" onclick="pause();" style="margin-top:23px;">
+                        <input type="button" value="reset" class="btn btn-danger btn-lg1" onclick="reset();" style="margin-top:23px;">
+                        <input type="button" value="lap" class="btn btn-info btn-lg1" onclick="lap();" style="margin-top:23px;">
+
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/stopwatch.js"></script>
+    
+</body>
+
+</html>
